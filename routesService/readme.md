@@ -18,5 +18,7 @@ and it will display the application swagger
 <h3>Docker</h3>
 Connectivity has not been achieved, a known issue with win10 made it impossible to reach running containers, nevertheless, dockerfile and image has been created, they can be rebuild by typing:
 <p>mvnw package dockerfile:build</p>
+Image has been already created and made available at:
+<a href="https://hub.docker.com/r/joseam/routes-service/">ROUTES SERVICE IMAGE<a>
 <h3>Security</h3>
 Using @Secure annotation allows you to secure the access to your API, by means of JWT tokens and implementing an own header checker will allow you to control the access to your application
