@@ -1,5 +1,6 @@
 <h1>Routes Service</h1>
 <h2>Building routesService</h2>
+cityAPI url must be entered in src/main/resources/application.properties if different from localhost:8090
 routesService has been developed using maven framework, building it is quite simple by invoking:
 mvnw clean package
 it will result into a .jar file under target directory
